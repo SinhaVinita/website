@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vinita Sinha</title>
+    <link rel="icon" type="image/png" href="" hreflang="en-us">
+    <meta property="og:title" content="Tanmay Bansal" />
+    <meta property="og:description"
+        content="Rising senior at Cornell passionate about using data to drive strategy & social change." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tanmaybansal.com" />
+    <meta property="og:site_name" content="Tanmay Bansal" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:locale" content="en_US">
+    <meta name="description"
+        content="Rising senior at Cornell passionate about using data to drive strategy & social change.">
+    <meta name="keywords" content="design, development, web, bchiang7, brittany, chiang, javascript, northeastern">
+    <meta itemprop="name" content="Tanmay Bansal">
+    <meta itemprop="description"
+        content="Rising senior at Cornell passionate about using data to drive strategy & social change.">
+    <meta itemprop="image" content="https://bchiang7.github.io/img/og.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://tanmaybansal.com">
+    <meta name="twitter:site" content="@bchiang7">
+    <meta name="twitter:creator" content="@bchiang7">
+    <meta name="twitter:title" content="Tanmay Bansal">
+    <meta name="twitter:description"
+        content="Rising senior at Cornell passionate about using data to drive strategy & social change.">
+    <meta name="twitter:image:src" content="https://bchiang7.github.io/img/og.png">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+    integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./global.css" />
+    <link rel="icon" href="./favicon.ico" />
+
+    <style>@font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-Light.eot);
+        src: url(../fonts/apercu/Apercu-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Light.woff2) format("woff2"), url(../fonts/apercu/Apercu-Light.woff) format("woff"), url(../fonts/apercu/Apercu-Light.ttf) format("truetype"), url(../fonts/apercu/Apercu-Light.svg#Apercu-Light) format("svg");
+        font-weight: 300;
+        font-style: normal
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-LightItalic.eot);
+        src: url(../fonts/apercu/Apercu-LightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-LightItalic.woff2) format("woff2"), url(../fonts/apercu/Apercu-LightItalic.woff) format("woff"), url(../fonts/apercu/Apercu-LightItalic.ttf) format("truetype"), url(../fonts/apercu/Apercu-LightItalic.svg#Apercu-LightItalic) format("svg");
+        font-weight: 300;
+        font-style: italic
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-Regular.eot);
+        src: url(../fonts/apercu/Apercu-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Regular.woff2) format("woff2"), url(../fonts/apercu/Apercu-Regular.woff) format("woff"), url(../fonts/apercu/Apercu-Regular.ttf) format("truetype"), url(../fonts/apercu/Apercu-Regular.svg#Apercu-Regular) format("svg");
+        font-weight: 400;
+        font-style: normal
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-Italic.eot);
+        src: url(../fonts/apercu/Apercu-Italic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Italic.woff2) format("woff2"), url(../fonts/apercu/Apercu-Italic.woff) format("woff"), url(../fonts/apercu/Apercu-Italic.ttf) format("truetype"), url(../fonts/apercu/Apercu-Italic.svg#Apercu-Italic) format("svg");
+        font-weight: 400;
+        font-style: italic
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-Medium.eot);
+        src: url(../fonts/apercu/Apercu-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Medium.woff2) format("woff2"), url(../fonts/apercu/Apercu-Medium.woff) format("woff"), url(../fonts/apercu/Apercu-Medium.ttf) format("truetype"), url(../fonts/apercu/Apercu-Medium.svg#Apercu-Medium) format("svg");
+        font-weight: 500;
+        font-style: normal
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-MediumItalic.eot);
+        src: url(../fonts/apercu/Apercu-MediumItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-MediumItalic.woff2) format("woff2"), url(../fonts/apercu/Apercu-MediumItalic.woff) format("woff"), url(../fonts/apercu/Apercu-MediumItalic.ttf) format("truetype"), url(../fonts/apercu/Apercu-MediumItalic.svg#Apercu-MediumItalic) format("svg");
+        font-weight: 500;
+        font-style: italic
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-Bold.eot);
+        src: url(../fonts/apercu/Apercu-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Bold.woff2) format("woff2"), url(../fonts/apercu/Apercu-Bold.woff) format("woff"), url(../fonts/apercu/Apercu-Bold.ttf) format("truetype"), url(../fonts/apercu/Apercu-Bold.svg#Apercu-Bold) format("svg");
+        font-weight: 700;
+        font-style: normal
+    }
+    
+    @font-face {
+        font-family: Apercu;
+        src: url(../fonts/apercu/Apercu-BoldItalic.eot);
+        src: url(../fonts/apercu/Apercu-BoldItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-BoldItalic.woff2) format("woff2"), url(../fonts/apercu/Apercu-BoldItalic.woff) format("woff"), url(../fonts/apercu/Apercu-BoldItalic.ttf) format("truetype"), url(../fonts/apercu/Apercu-BoldItalic.svg#Apercu-BoldItalic) format("svg");
+        font-weight: 700;
+        font-style: italic
+    }
+    
+    html {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box
+    }
+    
+    *,
+    :after,
+    :before {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit
+    }
+    
+    ::-moz-selection {
+        background: #ffdc00
+    }
+    
+    ::selection {
+        background: #ffdc00
+    }
+    
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #fff;
+        color: #444452;
+        font-family: "Source Sans Pro", Apercu, system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        width: 100%
+    }
+    
+    body.night,
+    html.night {
+        background-color: #171c28;
+        color: #afafbf
+    }
+    
+    body.night ::-moz-selection,
+    html.night ::-moz-selection {
+        color: #36363c;
+        background: #ffdc00
+    }
+    
+    body.night ::selection,
+    html.night ::selection {
+        color: #36363c;
+        background: #ffdc00
+    }
+    
+    body.night .switch-wrapper .sun,
+    html.night .switch-wrapper .sun {
+        background: url(../img/switch/sun-white.svg) no-repeat center;
+        background-size: 100%
+    }
+    
+    body.night .switch-wrapper .moon,
+    html.night .switch-wrapper .moon {
+        background: url(../img/switch/moon-white.svg) no-repeat center;
+        background-size: 100%
+    }
+    
+    body.night .experience .job__time,
+    body.night .footer__copyright,
+    body.night .intro,
+    body.night .skills .skillz__category__label,
+    body.night .status,
+    body.night a,
+    body.night strong,
+    html.night .experience .job__time,
+    html.night .footer__copyright,
+    html.night .intro,
+    html.night .skills .skillz__category__label,
+    html.night .status,
+    html.night a,
+    html.night strong {
+        color: #e7e7e7
+    }
+    
+    body.night .section__content .underline-link:after,
+    html.night .section__content .underline-link:after {
+        background: #e7e7e7
+    }
+    
+    a {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        text-decoration: none;
+        font-weight: 700;
+        color: inherit
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0
+    }
+    
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: currentColor
+    }
+    
+    img {
+        max-width: 100%;
+        vertical-align: middle
+    }
+    
+    strong {
+        font-weight: 700;
+        color: #36363c
+    }
+    
+    .emoji {
+        display: inline-block;
+        vertical-align: text-top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    
+    .section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 100px 170px
+    }
+    
+    @media screen and (max-width:1280px) {
+        .section {
+            padding: 100px
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+        .section {
+            padding: 50px
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .section {
+            display: block
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .section {
+            padding: 50px 35px
+        }
+    }
+    
+    .section__title {
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 200px;
+        margin-right: 100px;
+        color: #007bff;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: 700;
+        letter-spacing: 3px
+    }
+    
+    @media screen and (max-width:1024px) {
+        .section__title {
+            margin-right: 50px
+        }
+    }
+    
+    @media screen and (max-width:850px) {
+        .section__title {
+            width: 150px
+        }
+    }
+    
+    @media screen and (max-width:1080px) {
+        .section__title {
+            text-align: left;
+            width: auto
+        }
+    }
+    
+    .section__content {
+        font-weight: 300;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 650px
+    }
+    
+    @media screen and (max-width:768px) {
+        .section__content {
+            padding-top: 30px;
+            padding-left: 50px
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .section__content {
+            padding-left: 30px
+        }
+    }
+    
+    .section__content p {
+        margin-top: 0;
+        margin-bottom: 25px
+    }
+    
+    .section__content .underline-link {
+        position: relative;
+        display: inline-block
+    }
+    
+    .section__content .underline-link:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #36363c;
+        content: '';
+        opacity: 0;
+        -webkit-transition: height .3s, opacity .3s, -webkit-transform .3s;
+        transition: height .3s, opacity .3s, -webkit-transform .3s;
+        transition: height .3s, opacity .3s, transform .3s;
+        transition: height .3s, opacity .3s, transform .3s, -webkit-transform .3s;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+    
+    .section__content .underline-link:focus:after,
+    .section__content .underline-link:hover:after {
+        height: 2px;
+        border-radius: 3px;
+        opacity: 1;
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px)
+    }
+    
+    .arrow-link {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        font-weight: 700;
+        display: inline-block;
+        background-color: transparent;
+        white-space: nowrap
+    }
+    
+    .arrow-link:after {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        position: relative;
+        bottom: 2px;
+        margin-left: 15px;
+        content: '';
+        background: url(../img/arrow.png) no-repeat center;
+        background-size: 100%;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        vertical-align: middle
+    }
+    
+    .arrow-link:hover:after {
+        -webkit-transform: translateX(7px);
+        transform: translateX(7px)
+    }
+    
+    .small {
+        font-family: Inconsolata, monospace;
+        font-size: .85rem;
+        display: inline-block;
+        margin-top: 15px
+    }
+    
+    .small:after {
+        display: none
+    }
+    
+    #top-button {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        background: 0 0;
+        border: none;
+        outline: 0;
+        width: 40px;
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        cursor: pointer;
+        display: none
+    }
+    
+    @media screen and (max-width:1024px) {
+        #top-button {
+            bottom: 20px;
+            right: 7px;
+            width: 35px
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        #top-button {
+            bottom: 15px;
+            right: 3px
+        }
+    }
+    
+    #top-button:focus,
+    #top-button:hover {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+    
+    #top-button img {
+        width: 100%
+    }
+    
+    .waypoint {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0);
+        -webkit-transition: opacity .6s cubic-bezier(.694, 0, .335, 1), -webkit-transform .6s cubic-bezier(.694, 0, .335, 1);
+        transition: opacity .6s cubic-bezier(.694, 0, .335, 1), -webkit-transform .6s cubic-bezier(.694, 0, .335, 1);
+        transition: opacity .6s cubic-bezier(.694, 0, .335, 1), transform .6s cubic-bezier(.694, 0, .335, 1);
+        transition: opacity .6s cubic-bezier(.694, 0, .335, 1), transform .6s cubic-bezier(.694, 0, .335, 1), -webkit-transform .6s cubic-bezier(.694, 0, .335, 1)
+    }
+    
+    .in-view {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+    
+    .switch-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        right: 30px
+    }
+    
+    @media screen and (max-width:480px) {
+        .switch-wrapper {
+            top: 10px;
+            right: 20px
+        }
+    }
+    
+    .switch-wrapper .moon,
+    .switch-wrapper .sun {
+        width: 17px;
+        height: 17px
+    }
+    
+    .switch-wrapper .sun {
+        background: url(../img/switch/sun.svg) no-repeat center;
+        background-size: 100%
+    }
+    
+    .switch-wrapper .moon {
+        background: url(../img/switch/moon.svg) no-repeat center;
+        background-size: 100%
+    }
+    
+    .switch-wrapper .toggle-wrapper {
+        margin: 10px
+    }
+    
+    .switch-wrapper .toggle-wrapper #switch {
+        height: 0;
+        width: 0;
+        visibility: hidden;
+        position: absolute
+    }
+    
+    .switch-wrapper .toggle-wrapper #switch:checked+label {
+        background: #bae67e
+    }
+    
+    .switch-wrapper .toggle-wrapper #switch:checked+label:after {
+        left: calc(100% - 3px);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+    
+    .switch-wrapper .toggle-wrapper label {
+        cursor: pointer;
+        /* text-indent: -9999px; */
+        width: 45px;
+        height: 25px;
+        background: grey;
+        display: block;
+        border-radius: 100px;
+        position: relative
+    }
+    
+    .switch-wrapper .toggle-wrapper label:after {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 19px;
+        height: 19px;
+        background: #fff;
+        border-radius: 100%
+    }
+    
+    .intro {
+        padding: 120px 100px;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        max-width: 1440px;
+        margin: 0 auto
+    }
+    
+    @media screen and (max-width:630px) {
+        .intro {
+            padding: 120px 70px
+        }
+    }
+    
+    @media screen and (max-width:550px) {
+        .intro {
+            padding: 120px 50px
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .intro {
+            padding: 70px 50px
+        }
+    }
+    
+    .intro__hello,
+    .intro__tagline {
+        font-size: 2.5rem
+    }
+    
+    @media screen and (max-width:1024px) {
+        .intro__hello,
+        .intro__tagline {
+            font-size: 2.25rem
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .intro__hello,
+        .intro__tagline {
+            font-size: 2rem
+        }
+    }
+    
+    @media screen and (max-width:550px) {
+        .intro__hello,
+        .intro__tagline {
+            font-size: 1.75rem
+        }
+    }
+    
+    @media screen and (max-width:360px) {
+        .intro__hello,
+        .intro__tagline {
+            font-size: 1.5rem
+        }
+    }
+    
+    @media screen and (max-width:330px) {
+        .intro__hello,
+        .intro__tagline {
+            font-size: 1.4rem
+        }
+    }
+    
+    .intro__hello .emoji,
+    .intro__tagline .emoji {
+        width: 40px;
+        height: 40px
+    }
+    
+    @media screen and (max-width:1024px) {
+        .intro__hello .emoji,
+        .intro__tagline .emoji {
+            width: 35px;
+            height: 35px
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .intro__hello .emoji,
+        .intro__tagline .emoji {
+            width: 30px;
+            height: 30px
+        }
+    }
+    
+    @media screen and (max-width:360px) {
+        .intro__hello .emoji,
+        .intro__tagline .emoji {
+            width: 25px;
+            height: 25px
+        }
+    }
+    
+    .intro__hello {
+        font-weight: 300
+    }
+    
+    .intro__hello .wave-hand {
+        background-image: url(../img/emojis/wave.png);
+        margin-left: 10px;
+        cursor: pointer
+    }
+    
+    .intro__hello .wave-hand.animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both
+    }
+    
+    .intro__hello .wave-hand.wave {
+        -webkit-animation-name: wave;
+        animation-name: wave
+    }
+    
+    @-webkit-keyframes wave {
+        from {
+            -webkit-transform: none;
+            transform: none
+        }
+        15% {
+            -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+            transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg)
+        }
+        30% {
+            -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+            transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg)
+        }
+        45% {
+            -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+            transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg)
+        }
+        60% {
+            -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+            transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg)
+        }
+        75% {
+            -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+            transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg)
+        }
+        to {
+            -webkit-transform: none;
+            transform: none
+        }
+    }
+    
+    @keyframes wave {
+        from {
+            -webkit-transform: none;
+            transform: none
+        }
+        15% {
+            -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+            transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg)
+        }
+        30% {
+            -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+            transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg)
+        }
+        45% {
+            -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+            transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg)
+        }
+        60% {
+            -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+            transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg)
+        }
+        75% {
+            -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+            transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg)
+        }
+        to {
+            -webkit-transform: none;
+            transform: none
+        }
+    }
+    
+    .intro__tagline {
+        font-weight: 300;
+        max-width: 700px
+    }
+    
+    .intro__tagline .name {
+        font-weight: 700
+    }
+    
+    .intro__tagline .technologist {
+        background-image: url(../img/emojis/technologist.png)
+    }
+    
+    .intro__contact {
+        font-size: 1.25rem;
+        font-weight: 400
+    }
+    
+    @media screen and (max-width:550px) {
+        .intro__contact {
+            font-size: 1rem
+        }
+    }
+    
+    .intro__contact .emoji.pointer {
+        background-image: url(../img/emojis/pointright.png);
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        vertical-align: text-bottom
+    }
+    
+    @media screen and (max-width:550px) {
+        .intro__contact .emoji.pointer {
+            width: 25px;
+            height: 25px
+        }
+    }
+    
+    .intro__contact .highlight-link {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 3px;
+        text-decoration: none;
+        -webkit-box-shadow: inset 0 -3px 0 #007bff;
+        box-shadow: inset 0 -3px 0 #007bff
+    }
+    
+    .intro__contact .highlight-link:hover {
+        -webkit-box-shadow: inset 0 -33px 0 0 #007bff;
+        box-shadow: inset 0 -33px 0 0 #007bff;
+        color: #fff
+    }
+    
+    .skills .skillz {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+    
+    @media screen and (max-width:630px) {
+        .skills .skillz {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap
+        }
+    }
+    
+    @media screen and (max-width:630px) {
+        .skills .skillz__category {
+            width: 47%;
+            margin-right: 5px;
+            margin-bottom: 25px
+        }
+    }
+    
+    .skills .skillz__category__label {
+        font-weight: 700;
+        color: #36363c;
+        text-transform: uppercase
+    }
+    
+    .skills .skillz__category__item {
+        margin: 3px 0;
+        font-size: .9rem
+    }
+    
+    .experience .jobs {
+        margin-bottom: 100px
+    }
+    
+    .experience .job {
+        margin-bottom: 25px
+    }
+    
+    .experience .job .time-place {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+    
+    @media screen and (max-width:480px) {
+        .experience .job .time-place {
+            display: block
+        }
+    }
+    
+    .experience .job__company {
+        font-weight: 700
+    }
+    
+    .experience .job__time {
+        font-size: .9rem;
+        font-family: Inconsolata, monospace
+    }
+    
+    @media screen and (max-width:480px) {
+        .experience .job__time {
+            font-size: .8rem
+        }
+    }
+    
+    .experience .arrow-link {
+        font-size: 1.25rem
+    }
+    
+    .experience .arrow-link:after {
+        width: 20px;
+        height: 20px
+    }
+    
+    .status {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 1.1rem;
+        margin-top: 70px
+    }
+    
+    .status__light {
+        width: 30px;
+        height: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    
+    .status__light__ring {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        -webkit-animation: pulsate 2s ease-out;
+        animation: pulsate 2s ease-out;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        opacity: 0;
+        border: 3px solid #bae67e;
+        border-radius: 30px
+    }
+    
+    @-webkit-keyframes pulsate {
+        0% {
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1);
+            opacity: 0
+        }
+        50% {
+            opacity: 1
+        }
+        100% {
+            -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+            opacity: 0
+        }
+    }
+    
+    @keyframes pulsate {
+        0% {
+            -webkit-transform: scale(.1, .1);
+            transform: scale(.1, .1);
+            opacity: 0
+        }
+        50% {
+            opacity: 1
+        }
+        100% {
+            -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+            opacity: 0
+        }
+    }
+    
+    .status__light__led {
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        background: #bae67e;
+        border-radius: 100%
+    }
+    
+    .status__message {
+        margin-left: 15px
+    }
+    
+    .featured-projects a:after {
+        display: none
+    }
+    
+    .featured-projects .project {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 100px;
+        margin-left: -5%;
+        width: 125%
+    }
+    
+    @media screen and (max-width:1280px) {
+        .featured-projects .project {
+            width: 115%
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+        .featured-projects .project {
+            width: 105%
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .featured-projects .project {
+            width: 100%;
+            display: block;
+            margin-bottom: 70px
+        }
+    }
+    
+    .featured-projects .project.screentime {
+        margin-bottom: 70px
+    }
+    
+    .featured-projects .project:last-of-type {
+        margin-bottom: 0
+    }
+    
+    .featured-projects .project__pic {
+        max-width: 700px;
+        overflow: visible;
+        margin: 0
+    }
+    
+    .featured-projects .project__pic a {
+        display: block
+    }
+    
+    .featured-projects .project__pic.phones a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+    
+    .featured-projects .project__pic.phones .phone {
+        margin: 0 -7%
+    }
+    
+    .featured-projects .project__pic.phones .phone:first-of-type {
+        margin-left: -5%
+    }
+    
+    .featured-projects .project__pic img {
+        width: 100%;
+        max-width: 100%;
+        vertical-align: bottom
+    }
+    
+    .featured-projects .project__caption {
+        width: 125px;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        margin-left: 30px
+    }
+    
+    @media screen and (max-width:768px) {
+        .featured-projects .project__caption {
+            width: 100%;
+            margin-top: 25px;
+            margin-left: 0
+        }
+    }
+    
+    .featured-projects .project__name {
+        margin-bottom: 10px
+    }
+    
+    .featured-projects .project__name a {
+        font-weight: 700
+    }
+    
+    .featured-projects .project p {
+        font-size: .85rem;
+        line-height: 1.3
+    }
+    
+    .other-projects .project {
+        max-width: 600px;
+        margin-bottom: 50px
+    }
+    
+    .other-projects .project__name {
+        margin-bottom: 10px
+    }
+    
+    .other-projects .project p {
+        font-size: .9rem;
+        margin-bottom: 20px
+    }
+    
+    .other-projects .project__used__item {
+        display: inline-block;
+        margin: 3px 3px 3px 0;
+        font-family: Inconsolata, monospace;
+        font-size: .75rem;
+        font-weight: 700;
+        padding: 2px 7px;
+        border-radius: 3px;
+        color: #007bff;
+        border: 1px solid #007bff;
+        background: 0 0
+    }
+    
+    .other-projects .project__used__item:first-of-type {
+        margin-left: 0
+    }
+    
+    .footer {
+        padding: 50px 80px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    
+    @media screen and (max-width:1024px) {
+        .footer {
+            padding: 50px
+        }
+    }
+    
+    @media screen and (max-width:630px) {
+        .footer {
+            display: block
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .footer {
+            padding: 50px 30px
+        }
+    }
+    
+    .footer__copyright {
+        font-weight: 700;
+        width: 200px
+    }
+    
+    @media screen and (max-width:630px) {
+        .footer__copyright {
+            width: auto;
+            text-align: center;
+            margin-bottom: 25px
+        }
+    }
+    
+    @media screen and (max-width:630px) {
+        .footer__copyright .bottom,
+        .footer__copyright .top {
+            display: inline-block
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .footer__copyright .bottom,
+        .footer__copyright .top {
+            display: block
+        }
+    }
+    
+    .footer__copyright .emoji {
+        width: 20px;
+        height: 20px;
+        margin: 0 3px;
+        vertical-align: text-bottom
+    }
+    
+    @media screen and (max-width:630px) {
+        .footer__links {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+    }
+    
+    .footer__links a {
+        position: relative;
+        display: inline-block;
+        color: #007bff!important;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0 15px;
+        outline: 0
+    }
+    
+    @media screen and (max-width:1024px) {
+        .footer__links a {
+            margin: 0 10px
+        }
+    }
+    
+    .footer__links a:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #007bff;
+        content: '';
+        opacity: 0;
+        -webkit-transition: height .3s, opacity .3s, -webkit-transform .3s;
+        transition: height .3s, opacity .3s, -webkit-transform .3s;
+        transition: height .3s, opacity .3s, transform .3s;
+        transition: height .3s, opacity .3s, transform .3s, -webkit-transform .3s;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+    
+    @media screen and (max-width:850px) {
+        .footer__links a:after {
+            display: none
+        }
+    }
+    
+    .footer__links a:focus:after,
+    .footer__links a:hover:after {
+        height: 2px;
+        border-radius: 3px;
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    
+    .footer__links a .text {
+        font-size: .9rem;
+        display: inline;
+        letter-spacing: 1px
+    }
+    
+    @media screen and (max-width:850px) {
+        .footer__links a .text {
+            display: none
+        }
+    }
+    
+    .footer__links img {
+        display: none;
+        width: 22px
+    }
+    
+    @media screen and (max-width:850px) {
+        .footer__links img {
+            display: inline-block
+        }
+    }
+    
+    .not-found {
+        width: 100%;
+        height: 100vh!important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px
+    }
+    
+    .not-found .name {
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        font-weight: 700;
+        color: #007bff;
+        font-size: 1.5rem
+    }
+    
+    @media screen and (max-width:480px) {
+        .not-found .name {
+            top: 20px;
+            left: 25px;
+            font-size: 1.25rem
+        }
+    }
+    
+    .not-found h1 {
+        font-size: 4rem;
+        margin: 10px 0
+    }
+    
+    .not-found h2 {
+        font-size: 1.5rem
+    }
+    
+    @media screen and (max-width:480px) {
+        .not-found h2 {
+            font-size: 1.25rem
+        }
+    }
+    
+    @media screen and (max-width:360px) {
+        .not-found h2 {
+            font-size: 1.1rem
+        }
+    }
+    
+    .not-found a {
+        font-weight: 700;
+        color: #007bff!important;
+        position: relative;
+        display: inline-block
+    }
+    
+    .not-found a:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #007bff;
+        content: '';
+        opacity: 0;
+        -webkit-transition: height .3s, opacity .3s, -webkit-transform .3s;
+        transition: height .3s, opacity .3s, -webkit-transform .3s;
+        transition: height .3s, opacity .3s, transform .3s;
+        transition: height .3s, opacity .3s, transform .3s, -webkit-transform .3s;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+    
+    .not-found a:focus:after,
+    .not-found a:hover:after {
+        height: 3px;
+        opacity: 1;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+    
+    .job__description {
+        font-weight: 200;
+        margin-top: 3px;
+    }
+    
+    .job__position {
+        font-weight: 500
+    }
+    
+    ;
+    .contributors_project {
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+    
+    
+    /*.height_adjust_up{margin-top: -0.5em;}*/</style>
+</head>
+
+<body>
+    <div id="site">
+        <div class="switch-wrapper">
+            <div class="sun"></div>
+            <div class="toggle-wrapper"> <input id="switch" type="checkbox" /> <label for="switch"
+                    id="toggle">Toggle</label> </div>
+            <div class="moon"></div>
+        </div>
+        <header class="intro">
+            <h1 class="intro__hello">Hello! </h1>
+            <h2 class="intro__tagline">I'm <span class="name">Vinita Sinha</span>, a rising junior at Cornell
+                passionate about using data to drive strategy &amp; social change. </h2>
+            <h3 class="intro__contact"> <span>Let's get in touch at</span> <span> <a href="mailto:tb444@cornell.edu"
+                        target="_blank" class="highlight-link">vs339@cornell.edu</a>. </span> </h3>
+        </header>
+        <section class="section background">
+            <div class="section__title">About</div>
+            <div class="section__content">
+                <h3 class="intro__contact"> I'm a rising senior at <a class="underline-link" href="https://cornell.edu" target="_blank"> Cornell
+                        University</a>, majoring in <a class="underline-link" href="https://infosci.cornell.edu/"
+                        target="_blank"> Information Science </a> with a triple concentration in <strong>Data
+                        Science</strong>, <strong>Behavioral Science</strong>, and <strong>UX</strong>. </h3>
+                <h3 class="intro__contact"> I'm passionate about devising innovative ways to use data. I've spent the last 3 years strengthening
+                    these skills through exploring the applications of analytics and predictive modeling in a wide array
+                    of fields. Some of these fields are financial services, media & journalism, consulting, social
+                    impact, and social science. I've done so through internships, pro-bono consulting projects, personal
+                    projects, and academic research. </h3>
+                <h3 > I'm also interested in computational social science, especially when paired with social impact. I
+                    love beatboxing, rap, design, and am addicted to burrito bowls. </h3> <a class="status"
+                    href="mailto:tb444@cornell.edu" target="_blank">
+                    <div class="status__light">
+                        <div class="status__light__ring"></div>
+                        <div class="status__light__led"></div>
+                    </div>
+                    <div class="status__message">Currently seeking internship opportunities for Fall '20!</div>
+                </a>
+            </div>
+        </section>
+        <section class="section experience">
+            <div class="section__title">Off-Campus Experience</div>
+
+        <div class="section">
+    
+            <div class="showcase-bubbles row">
+              <div class="showcase-bubble-container col-5 col-lg-5">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="showcase-bubble shadowed">
+                    <img
+                      class="showcase-image"
+                      src="images/graphics/twitter-banner.svg"
+                      alt="Twitter Banner"
+                      draggable="false"
+                    />
+                    <div class="showcase-info">
+                      <img
+                        src="images/logos/twitter.svg"
+                        alt="Twitter Logo"
+                        draggable="false"
+                      />
+                      <p>Software Enginner Intern,<br />Summer '19</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+             <div class="showcase-bubble-container col-lg-5 col-half-offset">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="showcase-bubble shadowed">
+                    <img
+                      class="showcase-image"
+                      src="images/graphics/twitter-banner.svg"
+                      alt="Twitter Banner"
+                      draggable="false"
+                    />
+                    <div class="showcase-info">
+                      <img
+                        src="images/logos/twitter.svg"
+                        alt="Twitter Logo"
+                        draggable="false"
+                      />
+                      <p>Software Enginner Intern,<br />Summer '19</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="showcase-bubble-container col-lg-5 col-half-offset">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="showcase-bubble shadowed">
+                    <img
+                      class="showcase-image"
+                      src="images/graphics/twitter-banner.svg"
+                      alt="Twitter Banner"
+                      draggable="false"
+                    />
+                    <div class="showcase-info">
+                      <img
+                        src="images/logos/twitter.svg"
+                        alt="Twitter Logo"
+                        draggable="false"
+                      />
+                      <p>Software Enginner Intern,<br />Summer '20</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section experience">
+            <div class="section__title">Off-Campus Experience</div>
+            <div class="section__content">
+                <div class="jobs">
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://www.morganstanley.com/" target="_blank">Morgan
+                                    Stanley</a> </div>
+                            <div class="job__time">June 2020 - Aug 2020</div>
+                        </div>
+                        <div class="job__position">Technology Summer Analyst (Wealth Management Technology)</div>
+                        <div class="job__description">Working under the Advanced Analytics and Machine Mearning (AAML)
+                            arm.</div> <!-- <br> -->
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://www.icpf.org.in/" target="_blank">India Child
+                                    Protection Fund</a> </div>
+                            <div class="job__time">June 2020 - Present</div>
+                        </div>
+                        <div class="job__position">Data Science & Strategy Consultant</div>
+                        <div class="job__description">I'm helping build a bold data strategy to deter demand for online
+                            child sexual abuse material.</div> <!-- <br> -->
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://newscorp.com/" target="_blank">News Corp</a>
+                            </div>
+                            <div class="job__time">June 2019 - Aug 2019</div>
+                        </div>
+                        <div class="job__position">Data Product Analyst Intern (NewsIQ)</div>
+                        <div class="job__description">I dove deep into Ad Tech by developing audience modeling
+                            algorithms from scratch.</div> <!-- <br> -->
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://www.absolutdata.com/"
+                                    target="_blank">Absolutdata</a> </div>
+                            <div class="job__time">May 2018 - Aug 2018</div>
+                        </div>
+                        <div class="job__position">Data Science Intern</div>
+                        <div class="job__description">I worked on different analytics-oriented consulting projects for
+                            multinational clients.</div> <!-- <br> -->
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://missionantyodaya.nic.in/"
+                                    target="_blank">Government of India</a> </div>
+                            <div class="job__time">June 2017 - Aug 2017</div>
+                        </div>
+                        <div class="job__position">Research Intern (Mission Antyodaya)</div>
+                        <div class="job__description">I recommended policy changes to better tackle air pollution in
+                            India.</div> <!-- <br> -->
+                    </div>
+                </div>
+                <!-- <a href="https://bchiang7.github.io/resume.pdf" target="_blank" class="arrow-link">View My Resume</a> -->
+            </div>
+        </section>
+        <section class="section experience">
+            <div class="section__title">On-Campus Experience</div>
+            <div class="section__content">
+                <div class="jobs">
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://cornelldata.science/" target="_blank">Cornell
+                                    Data Science</a> </div>
+                            <div class="job__time">June 2018 - Present</div>
+                        </div>
+                        <div class="job__position">Education Lead</div>
+                        <div class="job__description">I lead an official machine learning course, workshops, and online
+                            tutorial repositories.</div>
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://www.sbccornell.org/" target="_blank">Social
+                                    Business Consulting</a> </div>
+                            <div class="job__time">Feb 2018 - Present</div>
+                        </div>
+                        <div class="job__position">Senior Advisor / Former Project Manager</div>
+                        <div class="job__description">I've helped four social enterprises with data strategy, expansion
+                            strategy, or market research.</div>
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://marsrover.engineering.cornell.edu/"
+                                    target="_blank">Cornell Mars Rover</a> </div>
+                            <div class="job__time">Aug 2017 - May 2019</div>
+                        </div>
+                        <div class="job__position">Business & Design Lead</div>
+                        <div class="job__description">I managed finances, operations, and outreach as our team built a
+                            semi-autonomous rover.</div>
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://www.cornelltarana.net/" target="_blank">Tarana A
+                                    Cappella</a> </div>
+                            <div class="job__time">Aug 2017 - Present</div>
+                        </div>
+                        <div class="job__position">Beatboxer</div>
+                        <div class="job__description">I <a
+                                href="https://www.youtube.com/watch?v=VHlzjTTcKiI&feature=emb_title">perform</a> and <a
+                                href="https://youtu.be/W0EImXTuL4Q">record</a> with my group - it's one of my favorite
+                            things on campus.</div>
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="" target="_blank">Other</a> </div>
+                            <div class="job__time">Aug 2017 - Present</div>
+                        </div>
+                        <div class="job__position"></div>
+                        <div class="job__description">Alumni Affairs & Development, CALS Ambassadors, Cornell
+                            Cooperative Extension (Former)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="section featured-projects"> <div class="section__title">Featured Projects</div> <div class="section__content"> <div class="project blistabloc"> <figure class="project__pic"> <a href="https://blistabloc.com/" target="_blank"> <img src="/img/featured/blistabloc/blistabloc.png" alt=""> </a> </figure> <figcaption class="project__caption"> <div class="project__name"> <a href="https://blistabloc.com/" target="_blank">blistabloc</a> </div> <p>Custom wordpress theme built with Timber and Woocommerce for blistabloc, the only reactive shoe insert that prevents blisters from forming.</p> </figcaption> </div> <div class="project screentime"> <figure class="project__pic phones"> <a href="https://play.google.com/store/apps/details?id=com.starry.management" target="_blank"> <div class="phone"> <img src="/img/featured/screentime/screentime1.png" alt=""> </div> <div class="phone"> <img src="/img/featured/screentime/screentime3.png" alt=""> </div> <div class="phone"> <img src="/img/featured/screentime/screentime4.png" alt=""> </div> </a> </figure> <figcaption class="project__caption"> <div class="project__name"> <a href="https://play.google.com/store/apps/details?id=com.starry.management" target="_blank">ScreenTime 2.0</a> </div> <p>Starry Station feature that provided users with the ability to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their phones.</p> </figcaption> </div> <div class="project interventions"> <figure class="project__pic"> <a href="https://interventions.design/" target="_blank"> <img src="/img/featured/interventions/interventions.png" alt=""> </a> </figure> <figcaption class="project__caption"> <div class="project__name"> <a href="https://interventions.design/" target="_blank">Interventions</a> </div> <p>Interactive marketing website for Northeastern's first annual student-led design conference, Interventions.</p> </figcaption> </div> </div> </section> -->
+        <section class="section experience">
+            <div class="section__title">Teaching</div>
+            <div class="section__content">
+                <div class="jobs">
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://cornelldatascience.github.io/info1998/"
+                                    target="_blank">Introduction to Machine Learning (INFO 1998)</a> </div>
+                            <div class="job__time">Spring 2020, Fall 2019, Spring 2019</div>
+                        </div>
+                        <div class="job__position">Lecturer</div>
+                        <div class="job__description">Run an official course to impart fundamental implementation-based
+                            data science skills.</div> <!-- <br> -->
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://mimno.infosci.cornell.edu/info3350/"
+                                    target="_blank">Text Mining for History and Literature (INFO 3350 / INFO 6350)</a>
+                            </div>
+                            <div class="job__time">Fall 2020 (<a href="https://mimno.infosci.cornell.edu/">D. Mimno</a>)
+                            </div>
+                        </div>
+                        <div class="job__position">Teaching Assistant</div>
+                        <div class="job__description">Corpus curation, similarity, classification, clustering, topic
+                            modeling, interpretation</div> <!-- <br> -->
+                    </div>
+                    <div class="job">
+                        <div class="time-place">
+                            <div class="job__company"> <a href="https://www.cs.cornell.edu/courses/cs1110/2018sp/"
+                                    target="_blank">Intro to Computing using Python (CS 1110)</a> </div>
+                            <div class="job__time">Spring 2019 (<a href="https://www.cs.cornell.edu/~bracy/">A.
+                                    Bracy</a>), Fall 2020 (<a href="https://www.cs.cornell.edu/~wmwhite/">W. White</a>)
+                            </div>
+                        </div>
+                        <div class="job__position">Course Consultant</div>
+                        <div class="job__description">Helped introduce 650+ students from diverse academic backgrounds
+                            to Computer Science.</div> <!-- <br> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section other-projects">
+            <div class="section__title">Selected Projects</div>
+            <div class="section__content">
+                <div class="project">
+                    <div class="project__name"> <a href="https://cusmile.herokuapp.com/" target="_blank"
+                            class="arrow-link">CUSmile - An Uplifting News Aggregator</a> </div>
+                    <div class="job__position">
+                        <div class="height_adjust_up" style="margin-top: -0.5em;"> With Alina Kim, Camilo Cedeno-Tobon,
+                            Ein Chang, Jennifer Lee </div>
+                    </div>
+                    <div class="job__description"> Developed a web app dedicated to presenting uplifting news from
+                        multiple sources. </div>
+                    <div class="project__used"> <span class="project__used__item">Information Retrieval</span> <span
+                            class="project__used__item">Machine Learning</span> <span
+                            class="project__used__item">HTML/CSS</span> <span class="project__used__item">Python</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a
+                            href="https://github.com/tanmaybansal01/orie4741-f19/blob/master/Final_Report.pdf"
+                            target="_blank" class="arrow-link">Identifying Risk Regions for Mass Shootings in
+                            America</a> </div>
+                    <div class="job__position">
+                        <div class="height_adjust_up" style="margin-top: -0.5em;"> With Saksham Mohan </div>
+                    </div>
+                    <div class="job__description"> Aggregated a <a class="underline-link"
+                            href="https://github.com/tanmaybansal01/orie4741-f19/blob/master/master_df.csv">dataset of
+                            shootings in America</a>, and explored what makes a geographical location most vulnerable to
+                        one. </div>
+                    <div class="project__used"> <span class="project__used__item">Machine Learning</span> <span
+                            class="project__used__item">Visualization</span> <span
+                            class="project__used__item">Julia</span> <span class="project__used__item">Python</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a href="" target="_blank" class="arrow-link">Mirror - Leveraging
+                            Personal Facebook Messenger Data to Train a Chatbot</a> </div>
+                    <div class="job__position">
+                        <div class="height_adjust_up" style="margin-top: -0.5em;"> With Saksham Jain </div>
+                    </div>
+                    <div class="job__description"> Extracted, cleaned, and manipulated 136,000+ of my personal messages
+                        to train a chatbot that talks like I do. </div>
+                    <div class="project__used"> <span class="project__used__item">Deep Learning</span> <span
+                            class="project__used__item">Scraping</span> <span class="project__used__item">Python</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a
+                            href="https://drive.google.com/file/d/1jgNERjK9zkb532J5Ic3AhWifrkDkaX8D/view?usp=sharing"
+                            target="_blank" class="arrow-link">Chore Organizer App - Financial Incentives to Perform
+                            House Chores</a> </div>
+                    <div class="job__position">
+                        <div class="height_adjust_up" style="margin-top: -0.5em;"> With Mahima Rao, Lesley Huang, Xian
+                            Shi </div>
+                    </div>
+                    <div class="job__description"> Designed an app prototype that incentivizes housemates to actually
+                        perform assigned chores. </div>
+                    <div class="project__used"> <span class="project__used__item">Human-Computer Interaction</span>
+                        <span class="project__used__item">Figma</span> <span class="project__used__item">Balsamiq</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a href="https://olympic-data.herokuapp.com/" target="_blank"
+                            class="arrow-link">Interactive Visualization - 120 Years of Olympic History</a> </div>
+                    <div class="job__position">
+                        <div class="height_adjust_up" style="margin-top: -0.5em;"> With Boon Palipatana, Rosie Ross
+                        </div>
+                    </div>
+                    <div class="job__description"> Developed an interactive dashboard to view olympics performance of
+                        countries in relation to socio-economic variables. </div>
+                    <div class="project__used"> <span class="project__used__item">Visualization</span> <span
+                            class="project__used__item">d3.js</span> </div>
+                </div>
+                <div class="project">
+                    <div class="project__name"> <a href="" target="_blank" class="arrow-link">Data on Data -
+                            Understanding What Makes an Open-source Dataset Popular</a> </div>
+                    <div class="job__position">
+                        <div class="height_adjust_up" style="margin-top: -0.5em;"> With Shruti Aggarwal </div>
+                    </div>
+                    <div class="job__description"> Scraped and created a dataset of datasets to examine what features
+                        render datasets attractive, and categorized them based on titles and tags. </div>
+                    <div class="project__used"> <span class="project__used__item">Natural Language Processing</span>
+                        <span class="project__used__item">Text Classification</span> <span
+                            class="project__used__item">Scraping</span> </div>
+                </div>
+            </div>
+        </section>
+        <section class="section other-projects"> <a name="research-section">
+                <div class="section__title">Research</div>
+                <div class="section__content">
+                    <div class="project">
+                        <div class="project__name"> <a
+                                href="https://cals.cornell.edu/news/tanmay-bansal-21-studying-behavioral-science-interventions"
+                                target="_blank" class="arrow-link">The Effects of Choice Architecture, Financial
+                                Literacy, and Financial Behaviors on Personal Savings</a> </div>
+                        <div class="job__position">
+                            <div class="height_adjust_up" style="margin-top: -0.5em;"> Tanmay Bansal, Adrianne Han, and
+                                Miles Wittenberg </div>
+                        </div>
+                        <div class="job__description"> Investigated a choice architecture intervention and evaluated how
+                            financial literacy, awareness, educational attainment, and gender identity correlate with
+                            savings. </div> <!-- <div class="project__used"> </div> -->
+                    </div>
+                    <div class="project">
+                        <div class="project__name"> <a
+                                href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3595749" target="_blank"
+                                class="arrow-link">Behavioral Finance and COVID-19 - Cognitive Errors that Determine the
+                                Financial Future</a> </div>
+                        <div class="job__position">
+                            <div class="height_adjust_up" style="margin-top: -0.5em;"> Tanmay Bansal </div>
+                        </div>
+                        <div class="job__description"> Surveyed how psychological shortcomings of investors are
+                            reflected in the market crash of 2020 and may continue to influence markets in near future.
+                        </div> <!-- <div class="project__used"> </div> -->
+                    </div>
+                    <div class="project">
+                        <div class="project__name"> <a href="http://www.abshahid.com/" target="_blank"
+                                class="arrow-link">Globalization - A Computational Perspective</a> </div>
+                        <div class="job__position">
+                            <div class="height_adjust_up" style="margin-top: -0.5em;"> Research Assistant to <a
+                                    href="http://www.abshahid.com/">Abdullah Shahid</a> </div>
+                        </div>
+                        <div class="job__description"> Drew on computational methods to study the evolution of a
+                            financial institutions as a way of better understanding how ideas and institutions globalize
+                            over time. </div> <!-- <div class="project__used"> </div> -->
+                    </div>
+                </div>
+            </a> </section>
+        <section class="section skills">
+            <div class="section__title">Recent Favorites</div>
+            <div class="section__content">
+                <!-- <p>I’ve worked in analytics across a wide array of domains.</p> -->
+                <div class="skillz">
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Reading</div>
+                        <ul>
+                            <li class="skillz__category__item"><a href="https://www.bitbybitbook.com/">Bit by Bit</a>
+                            </li>
+                            <li class="skillz__category__item"><a
+                                    href="https://www.penguinrandomhouse.com/books/304634/nudge-by-richard-h-thaler-and-cass-r-sunstein/">Nudge</a>
+                            </li>
+                            <li class="skillz__category__item"><a href="http://www.kasparov.com/deep-thinking-ai/">Deep
+                                    Thinking</a></li>
+                        </ul>
+                    </div>
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Watching</div>
+                        <ul>
+                            <li class="skillz__category__item"><a
+                                    href="https://www.imdb.com/title/tt8228288/?ref_=fn_al_tt_1">The Platform</a></li>
+                            <li class="skillz__category__item"><a
+                                    href="https://www.imdb.com/title/tt7784604/">Hereditary</a></li>
+                            <li class="skillz__category__item"><a href="https://www.imdb.com/title/tt1596363/">The Big
+                                    Short</a></li>
+                            <li class="skillz__category__item"><a href="https://www.imdb.com/title/tt0268978/">A
+                                    Beautiful Mind</a></li>
+                        </ul>
+                    </div>
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Listening</div>
+                        <ul>
+                            <li class="skillz__category__item"><a
+                                    href="https://open.spotify.com/album/6PBZN8cbwkqm1ERj2BGXJ1">Kendrick Lamar</a></li>
+                            <li class="skillz__category__item"><a
+                                    href="https://open.spotify.com/album/5MhZZyVkkusXY627OBZKAL">Jeremy Zucker</a></li>
+                            <li class="skillz__category__item"><a
+                                    href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x">Kanye West</a></li>
+                            <li class="skillz__category__item"><a
+                                    href="https://open.spotify.com/artist/20qISvAhX20dpIbOOzGK3q">Nas</a></li>
+                        </ul>
+                    </div>
+                    <div class="skillz__category">
+                        <div class="skillz__category__label">Eating</div>
+                        <ul>
+                            <li class="skillz__category__item"><a
+                                    href="https://www.nytimes.com/1985/03/06/garden/what-s-tiramisu-well-it-depends.html">Tiramisu</a>
+                            </li>
+                            <li class="skillz__category__item"><a
+                                    href="https://www.washingtonpost.com/recipes/butter-chicken/16267/">Butter
+                                    Chicken</a></li>
+                            <li class="skillz__category__item"><a
+                                    href="https://www.quora.com/What-is-the-difference-between-a-momo-and-a-dim-sum?share=1">Momos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__copyright">
+                <div class="top"> <span>Designed &amp; Developed by</span> </div>
+                <div class="bottom"> <a href="https://brittanychiang.com/"> <span>Brittany Chiang</span>
+                        <!-- <img class="emoji" src="/img/emojis/rockon.png" alt="emoji"> --> <span>2018</span> </a>
+                </div>
+            </div>
+            <div class="footer__links"> <a href="mailto:tb444@cornell.edu" target="_blank" title="email"> <span
+                        class="text">email</span> <img src="/img/social/email.svg" alt="email"> </a> <a
+                    href="https://www.linkedin.com/in/tanmaybansal1" target="_blank" title="linkedin"> <span
+                        class="text">linkedin</span> <img src="/img/social/linkedin.svg" alt="linkedin"> </a> </div>
+        </footer> <button id="top-button"> <img src="/img/emojis/pointing-up.png" alt=""> </button>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' type="text/javascript"
+        charset="utf-8"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
