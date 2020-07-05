@@ -103,7 +103,6 @@
   }
   
   .section {
-    padding: 10px 250px 10px 250px;
   }
   
   /*********** Nav ***********/
@@ -303,15 +302,13 @@
   
   @media (min-width: 800px) and (max-width: 999px) {
     .section {
-      padding-left: 100px;
-      padding-right: 100px;
+      
     }
   }
   
   @media (min-width: 1000px) and (max-width: 1199px) {
     .section {
-      padding-left: 180px;
-      padding-right: 180px;
+      
     }
   }
   
