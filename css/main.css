@@ -998,7 +998,7 @@ strong {
 }
 
 .other-projects .project__used__item {
-	display: inline-block;
+	display: inline;
 	margin: 3px 3px 3px 0;
 	font-family: Inconsolata, monospace;
 	font-size: .75rem;
