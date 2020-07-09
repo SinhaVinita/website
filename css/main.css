@@ -253,22 +253,10 @@ strong {
 .section__content {
 	font-weight: 300;
 	font-size: 1rem;
-	width: 100%;
-	max-width: 650px
+
 }
 
-@media screen and (max-width:768px) {
-	.section__content {
-		padding-top: 30px;
-		padding-left: 50px
-	}
-}
 
-@media screen and (max-width:480px) {
-	.section__content {
-		padding-left: 30px
-	}
-}
 
 .section__content p {
 	margin-top: 0;
